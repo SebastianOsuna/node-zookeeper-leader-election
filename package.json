@@ -1,0 +1,30 @@
+{
+  "name": "zookeeper-leader-election",
+  "version": "1.0.0",
+  "description": "Leader election examples for nodejs using Zookeeper.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianOsuna/node-zookeeper-leader-election.git"
+  },
+  "keywords": [
+    "leader",
+    "election",
+    "zookeeper",
+    "singleton",
+    "high",
+    "availability"
+  ],
+  "author": "Sebastian Osuna <jsebastianosuna@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SebastianOsuna/node-zookeeper-leader-election/issues"
+  },
+  "homepage": "https://github.com/SebastianOsuna/node-zookeeper-leader-election#readme",
+  "dependencies": {
+    "node-zookeeper-client": "^0.2.2"
+  }
+}
